@@ -28,6 +28,8 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 public:
+
+	// ブループリントでも編集可能か　　メンバ変数の表示　、カテゴリー枠
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components/Collision")
 		UCapsuleComponent* capsule_collision;
 
